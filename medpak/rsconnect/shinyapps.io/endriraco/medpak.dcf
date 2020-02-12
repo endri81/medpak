@@ -1,0 +1,12 @@
+name: medpak
+title: medpak
+username:
+account: endriraco
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1797127
+bundleId: 2793658
+url: https://endriraco.shinyapps.io/medpak/
+when: 1581467192.19847
+asMultiple: FALSE
+asStatic: FALSE
