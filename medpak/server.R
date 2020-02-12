@@ -1,6 +1,6 @@
 library(DT)
 library(readxl)
-load("/cloud/project/medpak/data/data.rdata")
+load("./data/data.rdata")
 
 function(input, output) {
 
@@ -34,5 +34,5 @@ output$table <- DT::renderDataTable({
       autoWidth = TRUE
     ))
 
-  })  
- }
+  })}  
+ 

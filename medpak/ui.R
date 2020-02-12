@@ -7,11 +7,11 @@ includeCSS("styles.css"),
 h1(id="big-heading", "Shërbime për fëmijët me aftësi të kufizuar"),
   sidebarLayout(
     sidebarPanel(
-      fileInput("file1", "Zgjidh skedarin Excel",
+      fileInput("file1", "Zgjidh skedarin Excel", buttonLabel = "Zgjidh...",
                 accept = c(
                   "text/csv",
                   "text/comma-separated-values,text/plain",
-                  ".csv","xls", "xlsx")
+                  ".csv",".xls", ".xlsx")
       ),
       tags$hr()
     ),
