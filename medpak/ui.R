@@ -11,7 +11,8 @@ h1(id="big-heading", "Shërbime për fëmijët me aftësi të kufizuar"),
                 accept = c(
                   "text/csv",
                   "text/comma-separated-values,text/plain",
-                  ".csv",".xls", ".xlsx")
+                  ".csv",".
+                  xls", ".xlsx")
       ),
       tags$hr()
     ),

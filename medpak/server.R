@@ -9,9 +9,11 @@ output$table <- DT::renderDataTable({
   inFile <- input$file1
   
   if (!is.null(inFile)){
-    data <- read_excel(inFile$datapath)  
+    data <- read_excel(inFile$datapath)
+    data <- data[, -c(1:2)]
   }
   else {
+    data <- data[, -c(1:2)]
     data
   }
     DT::datatable(
